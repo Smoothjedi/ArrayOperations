@@ -106,7 +106,7 @@ AppendValueResult * ArrayOperations::AppendValue(int value)
         if (numberOfItems == currentCapacity)
         {
             ResizeArray();
-            AppendValue(value);
+            return AppendValue(value);
         }
         // Otherwise we set the value and increment the number of items
         else
@@ -181,6 +181,10 @@ LoadRandomArrayDataResult * ArrayOperations::LoadRandomArrayData(int seed, int a
     catch (std::exception &error)
     {
         return new LoadRandomArrayDataResult(seed, amountPopulated, false, error.what());
+    }
+    catch (...)
+    {
+        return new LoadRandomArrayDataResult(seed, amountPopulated, false, "An unknown error occurred.");
     }
 }
 
