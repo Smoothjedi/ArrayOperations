@@ -9,7 +9,7 @@ There are ten options to choose from once the program begins:
 
 ![ArrayOperations](../assets/Startup.png?raw=true)
 
-A good place to start is by loading data from a CSV. A test file, TestData.csv has been provided. 
+A good place to start is by loading data from a CSV. A test file, TestData.csv, has been provided. 
 
 ![ArrayOperations](../assets/LoadDataFromCSV.png?raw=true)
 
@@ -72,6 +72,3 @@ We can also see there are 2345 entries now:
 Finally at any time the data can be erased from the array and you can start over. A new array is created with an initial capacity of 100.
 
 ![ArrayOperations](../assets/ErasedAllData.png?raw=true)
-
-
-
