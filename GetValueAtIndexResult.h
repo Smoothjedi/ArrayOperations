@@ -1,6 +1,6 @@
 /*****************************************************************//**
  * \file   GetValueAtIndexResult.h
- * \brief  Result object from the AppendValue operation on ArrayOperations
+ * \brief  Result object from the GetValueAtIndex operation on ArrayOperations
  *
  * \author Mike
  * \date   February 2023

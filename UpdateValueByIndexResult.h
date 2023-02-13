@@ -1,6 +1,6 @@
 /*****************************************************************//**
  * \file   UpdateValueByIndexResult.h
- * \brief  A result from the RemoveValueByIndex operation in ArrayOperations
+ * \brief  A result from the UpdateValueByIndexResult operation in ArrayOperations
  *
  * \author Mike
  * \date   February 2023
