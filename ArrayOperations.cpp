@@ -204,8 +204,18 @@ LoadArrayDataFromCsvResult* ArrayOperations::LoadArrayDataFromCsv(std::string fi
             while (getline(sStream, line, ','))
             {
                 // convert string to int and append value
-                AppendValue(std::stoi(line));
-                amountAdded++;
+                OperationResult * result = AppendValue(std::stoi(line));
+                if (result->Success)
+                {
+                    amountAdded++;
+                    delete result;
+                }
+                else
+                {
+                    std::string error = result->Error;
+                    delete result;
+                    throw std::exception(error.c_str());
+                };
             }
         }
         // close the file
