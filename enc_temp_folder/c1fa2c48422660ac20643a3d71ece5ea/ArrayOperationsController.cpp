@@ -170,6 +170,4 @@ int main()
 		}
 		}
 	} while (!terminateFlag);
-
-	delete arrayOperations;
 }
