@@ -28,5 +28,8 @@ Now we see that the value is only found at 99, which is one less than its origin
 ![ArrayOperations](../assets/GetIndexOfValue_AfterRemoval.png?raw=true)
 If we were try to remove a value with an invalid index, we would have received an error:
 ![ArrayOperations](../assets/RemoveValueByIndex_failure.png?raw=true)
+We can now query the current capacity to see that the array has expanded its capacity:
+![ArrayOperations](../assets/GetCurrentCapacityAfterAppend.png?raw=true)
+
 
 
