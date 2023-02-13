@@ -6,6 +6,8 @@
  * \date   February 2023
  *********************************************************************/
 #pragma once
+#ifndef APPEND_VALUE_RESULT_H
+#define APPEND_VALUE_RESULT_H
 #include <sstream>
 #include "OperationResult.h"
 class AppendValueResult : public OperationResult
@@ -50,3 +52,4 @@ private:
 	int value;
 };
 
+#endif

@@ -6,6 +6,10 @@
  * \date   February 2023
  *********************************************************************/
 #pragma once
+#ifndef LOAD_RANDOM_ARRAY_DATA_RESULT_H
+#define LOAD_RANDOM_ARRAY_DATA_RESULT_H
+
+
 #include <sstream>
 #include "OperationResult.h"
 class LoadRandomArrayDataResult : public OperationResult
@@ -53,3 +57,5 @@ private:
 	int seed;
 	int amount;
 };
+
+#endif

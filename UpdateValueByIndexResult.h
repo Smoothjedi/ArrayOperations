@@ -6,6 +6,9 @@
  * \date   February 2023
  *********************************************************************/
 #pragma once
+#ifndef UPDATE_VALUE_BY_INDEX_RESULT_H
+#define UPDATE_VALUE_BY_INDEX_RESULT_H
+
 #include <sstream>
 #include "OperationResult.h"
 
@@ -53,3 +56,5 @@ private:
 	int newValue;
 	int oldValue;
 };
+
+#endif

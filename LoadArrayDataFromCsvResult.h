@@ -5,8 +5,10 @@
  * \author Mike
  * \date   February 2023
  *********************************************************************/
-
 #pragma once
+#ifndef LOAD_ARRAY_DATA_FROM_CSV_RESULT_H
+#define LOAD_ARRAY_DATA_FROM_CSV_RESULT_H
+
 #include <sstream>
 #include "OperationResult.h"
 class LoadArrayDataFromCsvResult : public OperationResult
@@ -54,3 +56,5 @@ private:
 	int numberOfItems;
 	int amountAdded;
 };
+
+#endif

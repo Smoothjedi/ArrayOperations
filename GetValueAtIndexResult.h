@@ -6,6 +6,9 @@
  * \date   February 2023
  *********************************************************************/
 #pragma once
+#ifndef GET_VALUE_AT_INDEX_RESULT_H
+#define GET_VALUE_AT_INDEX_RESULT_H
+
 #include <sstream>
 #include "OperationResult.h"
 class GetValueAtIndexResult : public OperationResult
@@ -53,3 +56,4 @@ private:
 	int value;
 };
 
+#endif

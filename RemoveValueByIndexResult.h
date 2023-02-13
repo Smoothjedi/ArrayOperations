@@ -5,8 +5,10 @@
  * \author Mike
  * \date   February 2023
  *********************************************************************/
-
 #pragma once
+#ifndef REMOVE_VALUE_BY_INDEX_RESULT_H
+#define REMOVE_VALUE_BY_INDEX_RESULT_H
+
 #include <sstream>
 #include "OperationResult.h"
 class RemoveValueByIndexResult : public OperationResult
@@ -58,3 +60,5 @@ private:
 	int index;
 	int oldValue;
 };
+
+#endif

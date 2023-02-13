@@ -6,6 +6,9 @@
  * \date   February 2023
  *********************************************************************/
 #pragma once
+#ifndef GET_INDEX_OF_VALUE_RESULT_H
+#define GET_INDEX_OF_VALUE_RESULT_H
+
 #include <sstream>
 #include "OperationResult.h"
 class GetIndexOfValueResult : public OperationResult
@@ -66,3 +69,4 @@ private:
 	int value;
 };
 
+#endif
