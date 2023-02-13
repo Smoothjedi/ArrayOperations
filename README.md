@@ -32,7 +32,7 @@ Now when we search for the index of the value, we will have both returned:
 ![ArrayOperations](../assets/GetIndexOfValue_success-MultipleResults.png?raw=true)
 
 Next we can remove the first value:
-![ArrayOperations](../assets/RemoveValueAtIndex_success.png?raw=true)
+![ArrayOperations](../assets/RemoveValueByIndex_success.png?raw=true)
 
 Now we see that the value is only found at 99, which is one less than its original position because the values were shifted left.
 ![ArrayOperations](../assets/GetIndexOfValue_AfterRemoval.png?raw=true)
